@@ -1,0 +1,276 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+html,body{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    line-height: 1.4;
+    scroll-behavior: smooth;
+}
+
+header{
+    position: sticky;
+    top: 0;
+    z-index: 100;
+    background-color: rgb(43, 0, 128);
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.5);
+    top:0;
+    
+}
+.container{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+    padding: 20px 0;
+    
+    
+}
+.logo{
+    font-size: 32px;
+    font-weight: 600px;
+}
+
+nav ul{
+    display: flex;
+    flex-direction: row;
+    gap:20px;
+    list-style: none;
+}
+
+nav ul a{
+    text-decoration: none;
+    color: white;
+}
+
+nav ul li {
+    border-bottom: 2px solid transparent;
+    transition: 0.2s ease-in;
+}
+
+/* ======== Main sectioin ========= */
+.main{
+  background-image: url(/img/hero_image.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: auto;
+  height: 100vh;
+  display: grid;
+}
+.main-content{
+    color: white;
+    display: flex;
+   
+    gap: 40px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+   
+}
+.main-content h1{
+    font-size: 96px;
+    font-weight: 500;
+}
+.main-content h3{
+    font-size: 32px;
+    font-weight: 400;
+}
+.main-content p{
+    font-size: 18px;
+    font-weight: 300;
+    text-align: center;
+}
+
+/* ========= Music SECTION ======== */
+.music-section{
+    padding-top: 50px;
+    background-color: rgb(34, 2, 77);
+}
+.music{
+   
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+.music h2{
+    font-weight: 500;
+    font-size: 35px;
+}
+.music h4{
+    font-weight: 500;
+    font-size: 18px;
+    text-align: center;
+}
+button{
+    padding: 10px 20px;
+    background-color:#dc0000;
+    font-size: 18px;
+    border: none;
+    color: white;
+    margin-top: 25px;
+    cursor: pointer;
+}
+button:hover{
+    background-color: #ee2121;
+}
+
+.music p{
+    font-size: 18px;
+    font-weight: 300;
+}
+.ipad-img{
+    margin-top: -400px;
+    position: relative;
+    top: 400px;
+}
+
+/* ========== About Section of Music ========== */
+.about-music{
+    margin-top: 400px;
+    padding: 50px;
+}
+.about{
+    display: flex;
+    gap: 50px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center
+}
+.about h3{
+    font-weight: 500;
+    font-size: 20px;
+    color: black;
+}
+.about p{
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 1.4;
+  text-align: center;
+}
+.about button{
+    background-color: rgb(43, 0, 128);
+    padding:9px 15px ;
+    font-size: 14px;
+    margin: 0;
+
+}
+.about button:hover{
+    background-color: rgb(59, 17, 142);
+}
+
+/* ========== Music Video Section ===========*/
+.music-video{
+background-image: url(img/video.png);
+background-repeat: no-repeat;
+background-size: cover;
+width: auto;
+height: 100vh;
+display: grid;
+}
+.video{
+    display: flex;
+    flex-direction: column;
+    color: white;
+    text-align: center;
+    justify-content: center;
+}
+
+.video h3{
+    padding: 40px 0;
+    font-weight: 500;
+
+}
+
+/* ============ Gift Card Section ========= */
+.gift-section{
+    margin-top: 100px;
+}
+.gift-card{
+    display: flex;
+    gap: 50px;
+}
+.gift{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    text-align: justify;
+}
+.gift h3{
+   color: black;
+   font-weight: bold;
+}
+.gift p{
+    font-weight: 300;
+    line-height: 1.4;
+}
+.gift button{
+    background-color: rgb(43, 0, 128);
+    padding:9px 15px ;
+    font-size: 14px;
+    margin: 0;
+}
+.gift  button:hover{
+    background-color: rgb(59, 17, 142);
+}
+
+/* ======== Footer Section ======== */
+.upper-footer{
+    background-color: rgb(40, 7, 100);
+    color: white;
+    margin-top: 50px;
+
+}
+.links {
+    display: flex;
+    color: white;
+    justify-content: space-between;
+}
+.footer-links{
+    padding: 20px 0;
+}
+.footer-links h4{
+    font-weight: 500;
+    padding: 10px 0;
+    padding-bottom: 10px;
+    border-bottom: 1px solid white;
+    margin-bottom: 10px;
+}
+
+.footer-links ul li {
+ list-style: none;
+ font-weight: 300;
+ 
+}
+.footer-links ul li a{
+    color: white;
+    text-decoration: none;
+}
+
+.lower-footer{
+    background-color: rgb(43, 0, 128);
+    padding: 20px 0;
+}
+
+.lower-footer p{
+    color: white;
+    text-align: center;
+    font-size: 20px;
+    font-weight: 300;
+}
+
+/* ===== RESPONSIVE SECTION ======*/
+@media screen {
+    
+}
